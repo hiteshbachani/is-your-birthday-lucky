@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #fff1f2;
+    --secondary-color: #881337;
+
+}
+
+body {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-family: 'Arsenal', sans-serif;
+    margin: 5rem;
+}
+
+
+
+input {
+    width: 20vw;
+    height: 3vh;
+    display: block;
+    border: none;
+    margin: 0.75rem auto;
+
+}
+
+input, label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+button {
+    width: 6vw;
+    height: 3.5vh;
+    display: block;
+    margin: auto;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+}
+
+
+textarea {
+    width: 40vw;
+    height: 10vh;
+    display: block;
+    margin: auto;
+    color: var(--secondary-color);
+    font-size: large;
+text-align: center;
+padding-top: 0.5rem;
+}
