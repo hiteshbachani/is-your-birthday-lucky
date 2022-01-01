@@ -18,6 +18,7 @@ header {
     height: 10vh;
     margin: 3rem auto;
     background-color: var(--secondary-color);
+    border-radius: 50px;
     
 }
 
